@@ -5,5 +5,5 @@ import { ContactSection } from '@/components/contact-section'
 import { SiteFooter } from '@/components/site-footer'
 
 export default function Page() {
-  return <main id="top"><SiteHeader /><Hero /><FoundationSection /><MissionSection /><ServicesSection /><ProductsSection /><SecuritySection /><ContactSection /><SiteFooter /></main>
+  return <main><SiteHeader /><Hero /><FoundationSection /><MissionSection /><ServicesSection /><ProductsSection /><SecuritySection /><ContactSection /><SiteFooter /></main>
 }
