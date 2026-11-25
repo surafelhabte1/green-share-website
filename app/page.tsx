@@ -1,9 +1,5 @@
-import { SiteHeader } from '@/components/site-header'
-import { Hero } from '@/components/hero'
-import { FoundationSection, MissionSection, ProductsSection, SecuritySection, ServicesSection } from '@/components/sections'
-import { ContactSection } from '@/components/contact-section'
-import { SiteFooter } from '@/components/site-footer'
+import { TranslatedSite } from '@/components/translated-site'
 
 export default function Page() {
-  return <main><SiteHeader /><Hero /><FoundationSection /><MissionSection /><ServicesSection /><ProductsSection /><SecuritySection /><ContactSection /><SiteFooter /></main>
+  return <TranslatedSite />
 }
