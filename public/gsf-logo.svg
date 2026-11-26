@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Green Share Future</title>
+  <desc id="desc">GSF logo with green leaves, a navy monogram, and the Green Share Future tagline.</desc>
+  <defs>
+    <linearGradient id="leaf" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#008d4b"/><stop offset="1" stop-color="#72d500"/></linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07517d"/><stop offset="1" stop-color="#092b59"/></linearGradient>
+  </defs>
+  <g transform="translate(34 23)">
+    <path fill="url(#leaf)" d="M45 153C47 63 120 9 213 12c48 2 79 22 133 1-31 68-69 99-137 111-57 10-91 38-111 87-14-15-22-35-21-58Z"/>
+    <path fill="#fff" d="M58 168c32-78 94-118 179-119-73 13-124 48-159 105-10 16-16 33-20 52Z"/>
+    <path fill="url(#navy)" d="M97 187c32-35 79-47 137-42 34 3 59 22 67 54 9 38-8 82-43 104-47 30-121 20-159-21-26-28-27-68-2-95Zm49 23c-12 17-10 40 5 55 22 23 66 29 94 14 18-10 29-33 24-52-5-18-23-29-49-31-32-2-59 2-74 14Z"/>
+    <path fill="url(#leaf)" d="M145 262h20v-36h-20zm28 0h20v-57h-20zm28 0h20v-77h-20z"/>
+    <path fill="url(#navy)" d="M353 93h207l-20 43c-3 6-8 9-15 9H404c-31 0-53 24-53 57s21 56 53 56h77v-34h-72v-48h125v128H399c-67 0-111-42-111-102 0-65 47-109 115-109Zm236 0h183l-20 43c-3 6-8 9-15 9H619c-10 0-16 6-16 14 0 9 6 14 17 16l89 13c48 7 73 31 73 68 0 43-35 68-86 68H508l20-44c3-6 8-9 15-9h147c13 0 20-5 20-14 0-8-7-13-20-15l-83-12c-49-7-76-31-76-69 0-42 33-68 88-68Zm192 0h193l-20 43c-3 6-8 9-15 9H832v39h84v48h-84v92h-51V93Z"/>
+    <path fill="url(#leaf)" d="M815 211c40-67 84-94 171-96-24 29-44 44-77 45-38 1-65 16-94 51Z"/>
+    <text x="111" y="320" fill="#078d48" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="700">Green</text>
+    <text x="275" y="320" fill="#0b315f" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="700">Share Future</text>
+    <path d="M121 342h273m112 0h230" stroke="#54bd24" stroke-width="4" stroke-linecap="round"/>
+    <path fill="url(#leaf)" d="M440 350c-1-21-12-34-30-39 2 19 10 31 30 39Zm8 0c3-22 16-34 35-37-3 18-14 29-35 37Zm-4 2c1-16 5-26 13-37-1 19-4 30-13 37Z"/>
+  </g>
+</svg>

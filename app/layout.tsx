@@ -7,27 +7,14 @@ export const metadata: Metadata = {
   description: 'Institutional-grade software ecosystems, certified fiscal platforms, and verified real estate infrastructure for a sustainable digital Africa.',
   generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: [{ url: '/gsf-favicon.svg', type: 'image/svg+xml' }],
+    apple: [{ url: '/gsf-favicon.svg', type: 'image/svg+xml' }],
   },
 }
 
 export const viewport: Viewport = {
-  colorScheme: 'dark',
-  themeColor: '#080E14',
+  colorScheme: 'light',
+  themeColor: '#F4F4F6',
 }
 
 export default function RootLayout({
