@@ -1,4 +1,4 @@
-import { ArrowUpRight, Menu, Leaf } from 'lucide-react'
+import { ArrowUpRight, Menu } from 'lucide-react'
 import { useTranslations } from '@/lib/i18n'
 
 const links = [
@@ -15,9 +15,7 @@ export function SiteHeader() {
   return (
     <header className="site-header">
       <a className="brand" href="#top" aria-label="Green Share Future home">
-        <span className="brand-mark"><Leaf size={21} strokeWidth={2.5} /></span>
-        <span className="brand-name">GSF</span>
-        <span className="brand-caption">Green Share<br />Future</span>
+        <img className="brand-logo" src="/gsf-logo.svg" alt="Green Share Future" />
       </a>
       <nav className="main-nav" aria-label={t('Main navigation')}>
         {links.map(([label, href]) => <a key={href} href={href}>{t(label)}</a>)}
